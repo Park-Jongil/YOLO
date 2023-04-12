@@ -47,6 +47,7 @@ def yolov5_detect():
 # 데이터의 순서는 Sx , Sy , Ex , Ey , 정확도 , 클래스 , 상하 , 순서
     for i in range(icnt) :
         if (car_code[i][6] == 1) : car_code[i][7] = 10
+        
 # 같은 행에 대하여 가로좌표를 기준으로 자신보다 작은아이템의 숫자만큼 1 을 더한다.  왼쪽부터 낮은숫자로 세팅된다.        
     for i in range(icnt) :
         for j in range(icnt) :
