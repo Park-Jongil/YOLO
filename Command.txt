@@ -1,0 +1,843 @@
+ubuntu@ip-172-31-15-250:~$ history
+    1  sudo apt update
+    2  sudo apt list --upgradeable
+    3  sudo apt upgrade
+    4  sudo aptget install git
+    5  sudo apt-get install git
+    6  sudo apt-get install python-pip
+    7  sudo apt-get install python3-pip
+    8  sudo pip sintall --upgrade pip
+    9  sudo pip install --upgrade pip
+   10  sudo pip3 install --upgrade pip3
+   11  sudo pip3 install --upgrade pip
+   12  git clone https://github.com/ultralytics/yolov5
+   13  ls
+   14  ll
+   15  cd yolov5/
+   16  ls
+   17  sudo pip install -r requirements.txt 
+   18  python3
+   19  ll
+   20  cd data/
+   21  ll
+   22  ls images
+   23  cd ..
+   24  python3
+   25  python3 detect.py --source 'https://ultralytics.com/images/zidane.jpg'
+   26  python3 detect.py --source ./data/images/bus.jpg 
+   27  python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt
+   28  python3 train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt
+   29  ll
+   30  cd ru
+   31  cd runs/
+   32  ll\
+   33  cd train/
+   34  ll
+   35  c de
+   36  cd exp/
+   37  ll
+   38  cd weights/
+   39  ll
+   40  cd
+   41  ls
+   42  cd yolov5/
+   43  python3 train.py --img 640 --batch 16 --epochs 5 --data coco128.yaml --weights yolov5s.pt
+   44  ll
+   45  cd runs/
+   46  ll
+   47  cd train/
+   48  ls
+   49  cd exp2
+   50  ll
+   51  ll weights/
+   52  df -h
+   53  cd
+   54  cd yolov5/
+   55  ll
+   56  ren yolov5s.pt yolov5s.pt1
+   57  rename yolov5s.pt yolov5s.pt1
+   58  sudo apt install rename
+   59  rename yolov5s.pt yolov5s.pt1
+   60  ll
+   61  mv yolov5s.pt yolov5s.pt1
+   62  ll
+   63  python3 detect.py --source ./data/images/bus.jpg 
+   64  ll
+   65  rm yolov5s.pt
+   66  ll
+   67  cp runs/train/exp2/weights/best.pt yolov5s.pt
+   68  ll
+   69  python3 detect.py --source ./data/images/bus.jpg 
+   70  python3 detect.py --source ./data/images/bus.jpg --weight yolov5s.pt
+   71  cp runs/train/exp2/weights/best.pt best.pt
+   72  ll
+   73  python3 detect.py --source ./data/images/bus.jpg --weight best.pt 
+   74  cd train/
+   75  ll
+   76  python3 detect.py --source ./data/images/bus.jpg 
+   77  python3 detect.py --source ./data/images/bus.jpg --weight best.pt 
+   78  python3 train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt
+   79  ll
+   80  cd runs/
+   81  ll
+   82  cd train/
+   83  ll
+   84  cd exp3
+   85  ll
+   86  cd weights/
+   87  ;;
+   88  ll
+   89  cd
+   90  cd yolov5/
+   91  ll
+   92  mv yolov5s.pt yolov5s.pt2
+   93  ll
+   94  python3 detect.py --source ./data/images/bus.jpg --weight best.pt 
+   95  cp ./runs/train/exp3/weights/last.pt 
+   96  cp ./runs/train/exp3/weights/last.pt .
+   97  ll
+   98  python3 detect.py --source ./data/images/bus.jpg --weight last.pt 
+   99  python3 detect.py --source ./data/images/bus.jpg 
+  100  ll
+  101  rm yolov5s.pt
+  102  mv yolov5s.pt2 yolov5s.pt
+  103  ll
+  104  python3 detect.py --source ./data/images/bus.jpg 
+  105  ll
+  106  cd data/
+  107  ll
+  108  vi coco128.yaml 
+  109  nano
+  110  ㅊㅇ
+  111  cd
+  112  python --V
+  113  python -V
+  114  python3 -V
+  115  exit
+  116  ㅣㅣ
+  117  ll
+  118  cd yolov5/
+  119  ll
+  120  ll models/
+  121  ll
+  122  ll .git
+  123  ll .git/objects/
+  124  ll .git/objects/pack/
+  125  ㅣㅣ
+  126  ll
+  127  cat detect.py 
+  128  ll
+  129  nano detect.py 
+  130  cat setup.cfg 
+  131  ll
+  132  curl -L "https://app.roboflow.com/ds/ckvSUDivtp?key=mozOSbuIvq" > roboflow.zip; 
+  133  ll
+  134  cat data
+  135  cat data.yaml 
+  136  python --img 416 --batch 16 epoch 10 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  137  python3 --img 416 --batch 16 epoch 10 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  138  python3 --batch 16 epoch 10 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  139  python3 train.py --img 416 --batch 16 epoch 10 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  140  python3 train.py --img 416 --batch 16 epochs 10 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  141  python3 train.py --img 416 --batch 16 --epochs 10 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  142  cat data.yaml 
+  143  nano data.yaml 
+  144  python3 train.py --img 416 --batch 16 --epochs 10 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  145  ll runs/train/hat_yolov5s_result
+  146  ll runs/train/hat_yolov5s_result/weights/
+  147  ll runs/train/hat_yolov5s_result2/weights/
+  148  cp runs/train/hat_yolov5s_result2/weights/best.pt .
+  149  ll
+  150  cp best.pt besthat.pt
+  151  ll test/
+  152  ll test/images/
+  153  python3 detect.py --source ./test/images/000008_jpg.rf.XRB86poGENMcl4rWyA2O.jpg --weights besthat.pt 
+  154  python3 detect.py --source ./test/images/000011_jpg.rf.i0NkZ1ExSv4GB9vhQ53J.jpg --weights besthat.pt 
+  155  python3 detect.py --source ./test/images/000073_jpg.rf.c3gvWHoYGqDdebBlyPVA.jpg --weights besthat.pt 
+  156  python3 train.py --img 416 --batch 16 --epochs 50 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  157  ll
+  158  cat data.yaml 
+  159  ll run
+  160  ll runs/
+  161  ll runs/train/
+  162  ll runs/train/hat_yolov5s_result3
+  163  ll runs/train/hat_yolov5s_result3/weights/
+  164  ll
+  165  python3 detect.py --source ./test/images/000073_jpg.rf.c3gvWHoYGqDdebBlyPVA.jpg --weights besthat.pt 
+  166  nano hubconf.py 
+  167  cat data.yaml 
+  168  ll runs/train/hat_yolov5s_result3/weights/
+  169  cp runs/train/hat_yolov5s_result3/weights/best.pt ./besthat1.pt
+  170  ll
+  171  python3 detect.py --source ./test/images/000073_jpg.rf.c3gvWHoYGqDdebBlyPVA.jpg --weights besthat1.pt 
+  172  python3 detect.py --source ./test/images/000073_jpg.rf.c3gvWHoYGqDdebBlyPVA.jpg --weights besthat.pt 
+  173  python3 detect.py --source ./test/images/000073_jpg.rf.c3gvWHoYGqDdebBlyPVA.jpg --weights besthat1.pt 
+  174  cd ..
+  175  ll
+  176  sudo pip3 install notebook
+  177  python3
+  178  jupyter notebook --generate-config
+  179  sudo nano /home/ubuntu/.jupyter/jupyter_notebook_config.py 
+  180  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  181  bg
+  182  disown -h
+  183  ps -al
+  184  ll
+  185  ll datasets/
+  186  ll datasets/coco128/
+  187  ll datasets/coco128/images/
+  188  ll datasets/coco128/images/train2017/
+  189  ll
+  190  cd yolov5/
+  191  ll
+  192  python3 detect.py --source ./data/images/zidane.jpg --weights besthat1.pt
+  193  ll data
+  194  ll data/images/
+  195  python3 detect.py --source ./data/images/bus.jpg --weights besthat1.pt
+  196  python3 detect.py --source ./data/images/zidane.jpg --weights besthat1.pt
+  197  cat data.yaml 
+  198  python3 detect.py --source ./test/images/000097_jpg.rf.PJSq8kBZsxS1orJBcY83.jpg --weights besthat1.pt
+  199  python3 detect.py --source ./test/images/000084_jpg.rf.5UeyoOk6BLjh4NgNPmlF.jpg --weights besthat1.pt
+  200  python3 detect.py --source ./test/images/000098_jpg.rf.aH7MsHogGUa9YBfe9u8O.jpg --weights besthat1.pt
+  201  칟ㅁㄱ
+  202  clear
+  203  history 
+  204  history > cmd.txt
+  205  ll
+  206  cat cmd.txt 
+  207  history 
+  208  history 26
+  209  sudo apt-get install python3-pip
+  210  python3 detect.py --source 'https://ultralytics.com/images/zidane.jpg'
+  211  python3 detect.py --source zidane.jpg
+  212  python3 detect.py --source zidane.jpg --weights besthat.pt
+  213  ll runs/detect/exp29
+  214  sudo netstat -nap 
+  215  sudo apt-get netstat
+  216  sudo apt-get install netstat
+  217  sudo netstat -nap 
+  218  cd ..
+  219  ls
+  220  mkdir ssl
+  221  sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout "cert.key" "cert.pem" -batch
+  222  ll
+  223  cd ssl
+  224  sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout "cert.key" "cert.pem" -batch
+  225  openssl
+  226  openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout "cert.key" "cert.pem" -batch
+  227  cd ..
+  228  ls
+  229  ll
+  230  cd datasets/
+  231  ls
+  232  cd coco128/
+  233  ls
+  234  ll images/
+  235  ll images/train2017/
+  236  ll
+  237  ll labels/
+  238  ll labels/train2017
+  239  ls
+  240  ls -al
+  241  cd yolov5/
+  242  ls
+  243  history
+  244  ll
+  245  ls -al train
+  246  vi data.yaml 
+  247  ls -al valid
+  248  df -h
+  249  ls
+  250  ps -al
+  251  history
+  252  python3 train.py --img 416 --batch 16 --epochs 50 --data ./data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name hat_yolov5s_result
+  253  ㄷ턋
+  254  exit
+  255  history
+  256  180!
+  257  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  258  ls
+  259  cd datasets/
+  260  ls
+  261  cd Untitled\ Folder/
+  262  ls
+  263  cd Image/
+  264  ls
+  265  ls -al
+  266  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  267  ps -al
+  268  sudo kill 33610
+  269  ps -al
+  270  sudo kill 33609
+  271  ps -al
+  272  sudo ps -al
+  273  sudo kill 33609
+  274  sudo ps -al
+  275  sudo kill 33610
+  276  sudo ps -al
+  277  sudo kill 33550
+  278  sudo ps -al
+  279  reboot
+  280  sudo reboot
+  281  sudo ps -al
+  282  history
+  283  180!
+  284  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  285  ls
+  286  cd datasets/
+  287  ls
+  288  cd CarNumber/
+  289  ls
+  290  cd Image/
+  291  ls
+  292  sudo unzip Image.zip 
+  293  cd ..
+  294  ls
+  295  cd XML/
+  296  ls
+  297  sudo unzip XML.ZIP 
+  298  cd ..
+  299  ls
+  300  mkdir TXT
+  301  sudo mkdir TXT
+  302  ls
+  303  ls -al
+  304  sudo ps -al
+  305  ls -al
+  306  sudo vi convert.py
+  307  ls -al
+  308  sudo vi convert.py 
+  309  python convert.py 
+  310  python3 convert.py 
+  311  cd datasets/
+  312  ls
+  313  cd CarNumber/
+  314  ls
+  315  sudo vi convert.py 
+  316  ls
+  317  python convert.py 
+  318  python3 convert.py 
+  319  ls
+  320  sudo chmod 777 TXT
+  321  python3 convert.py 
+  322  ls
+  323  cd TXT
+  324  ls
+  325  cd..
+  326  cd ..
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd ..
+  331  ls
+  332  cd yolov5/
+  333  ls
+  334  cd ..
+  335  ls
+  336  cd datasets/
+  337  ls
+  338  cd coco128/
+  339  ls
+  340  ls labels/
+  341  cd
+  342  history
+  343  ls
+  344  cd yo
+  345  cd yolov5/
+  346  ls
+  347  cd data/
+  348  ls
+  349  cd ..
+  350  ls
+  351  cat data.yaml 
+  352  ls
+  353  cd datasets/
+  354  ls
+  355  cd CarNumber/
+  356  ls
+  357  vi convert.py 
+  358  ls
+  359  cd datasets/
+  360  ls -al
+  361  sudo chmod 777 CarNumber/
+  362  ls -al
+  363  cd CarNumber/
+  364  ls
+  365  ls -al
+  366  sudo chmod 777 images/
+  367  ls -al
+  368  cd ..
+  369  ls -al
+  370  cd ..
+  371  ls -al
+  372  sudo chmod 777 datasets/
+  373  ls -al
+  374  df -h
+  375  ls
+  376  cd yolov5/
+  377  ls
+  378  cp ../datasets/CarNumber/convert.py data1.yaml
+  379  cat data.yaml 
+  380  sudo vi data1.yaml 
+  381  cat data
+  382  cat data.yaml 
+  383  ls ./train/images/
+  384  ls ../datasets/CarNumber/Image/
+  385  sudo vi data1.yaml 
+  386  history
+  387  ls
+  388  cd train/
+  389  ls
+  390  ls -al
+  391  ls images/
+  392  ls labels
+  393  ls
+  394  cd ..
+  395  cd
+  396  cd da
+  397  cd datasets/
+  398  ls
+  399  cd CarNumber/
+  400  ls
+  401  sudo rename TXT labels
+  402  ls
+  403  sudo mv Image images
+  404  sudo mv TXT labels
+  405  ls
+  406  cd ..
+  407  ls
+  408  cd ..
+  409  ls
+  410  cd yolov5/
+  411  ls
+  412  sudo vi data1.yaml 
+  413  history
+  414  python3 train.py --img 416 --batch 16 --epochs 10 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights yolov5m.pt --name yolov5m_car
+  415  ls
+  416  cd yolov5/
+  417  ls
+  418  ls -al
+  419  cp ../datasets/CarNumber/images/000024187_P_T05.jpg 
+  420  cp ../datasets/CarNumber/images/000024187_P_T05.jpg .
+  421  ls
+  422  history
+  423  python3 detect.py --source 000024187_P_T05.jpg --weight yolov5m.pt
+  424  python3 detect.py --source 000024187_P_T05.jpg --weight yolov5m.pt --data data1.yaml 
+  425  sudo ps -al
+  426  180!
+  427  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  428  python3 train.py --img 416 --batch 16 --epochs 10 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights yolov5m.pt --name yolov5m_car
+  429  ls
+  430  cd yolov5/
+  431  ls
+  432  ls -al
+  433  ls runs/
+  434  ls runs/train/
+  435  cp runs/train/yolov5m_car 
+  436  cp runs/train/yolov5m_car .
+  437  ls runs/train/yolov5m_car
+  438  ls runs/train/yolov5m_car/weights/
+  439  cp runs/train/yolov5m_car/weights/best.pt best_car.pt
+  440  python3 train.py --img 416 --batch 16 --epochs 4 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car
+  441  ㅣㄴ
+  442  ls
+  443  cd yolov5/
+  444  ls
+  445  ls -al
+  446  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml 
+  447  cp runs/train/yolov5m_car/weights/best.pt best_car1.pt
+  448  python3 detect.py --source 000024187_P_T05.jpg --weight best_car1.pt --data data1.yaml 
+  449  sudo vi data1.yaml 
+  450  python3 train.py --img 416 --batch 16 --epochs 10 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car1.pt --name yolov5m_car
+  451  ls yolov5/
+  452  cd yolov5/
+  453  ls
+  454  cd runs/
+  455  ls
+  456  cd train/
+  457  ls
+  458  cd yolov5m_car4
+  459  ls
+  460  cd weights/
+  461  ls
+  462  cd ..
+  463  ls
+  464  cd ..
+  465  ls
+  466  ls -al
+  467  ls yolov5m_car3/weights/
+  468  ls yolov5m_car3/weights/ -al
+  469  cd
+  470  ls
+  471  cd yolov5/
+  472  ls
+  473  cp runs/train/yolov5m_car3/weights/best.pt best_car.pt
+  474  vi data1.yaml 
+  475  history
+  476  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  477  python3 train.py --img 416 --batch 16 --epochs 4 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car
+  478  cd yolov5/
+  479  python3 train.py --img 416 --batch 16 --epochs 4 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car
+  480  ls
+  481  cd yolov5/
+  482  ls
+  483  cd runs/
+  484  ls
+  485  cd train/
+  486  ls
+  487  ls yolov5m_car6/weights/
+  488  ls yolov5m_car6/weights/ -al
+  489  cd ..
+  490  ls
+  491  cp runs/train/yolov5m_car6/weights/best.pt best_car.pt
+  492  history 
+  493  476~
+  494  476!
+  495  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  496  python3 train.py --img 416 --batch 16 --epochs 4 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  497  history 
+  498  cp runs/train/yolov5m_car7/weights/best.pt best_car.pt
+  499  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  500  python3 train.py --img 416 --batch 16 --epochs 4 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  501  ls yolov5/
+  502  job
+  503  fg
+  504  ls runs
+  505  ls
+  506  cd yolov5/
+  507  ls runs/train/
+  508  ls runs/train/yolov5m_car8
+  509  ls runs/train/yolov5m_car8/weights/
+  510  cp runs/train/yolov5m_car8/weights/best.pt best_car.pt
+  511  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  512  180~
+  513  180!
+  514  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  515  sudo pa -al
+  516  sudo ps -al
+  517  sudo kill -9 25055
+  518  sudo kill -935055
+  519  sudo kill -9 35055
+  520  sudo ps -al
+  521  sudo kill -9 35054
+  522  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  523  exit
+  524  ps -al
+  525  sudo kill -9 35072
+  526  sudo ps -al
+  527  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  528  ps -al
+  529  sudo kill -9 35083
+  530  exit
+  531  sudo ps -al
+  532  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  533  job
+  534  bg
+  535  job
+  536  job -1
+  537  cd yolov5/
+  538  history
+  539  python3 train.py --img 416 --batch 16 --epochs 4 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  540  cd yolov5/
+  541  jobs
+  542  history
+  543  ls
+  544  ls runs/train/
+  545  ls runs/train/yolov5m_car15/weights/
+  546  ls -al
+  547  tail -n 10 nohup.out 
+  548  jobs
+  549  sudo ps -al
+  550  tail -n 10 nohup.out 
+  551  sudo kobs
+  552  sudo jobs
+  553  jobs
+  554  tail -n 10 nohup.out 
+  555  cd yolov5/
+  556  tail -n 10 nohup.out 
+  557  jobs
+  558  cd yolov5/
+  559  ls
+  560  nohup python3 train.py --img 416 --batch 16 --epochs 40 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  561  ls -al
+  562  jobs
+  563  timeout 15s tail -f nohup.out  
+  564  jobs
+  565  timeout 15s tail -f nohup.out  
+  566  ls
+  567  cd models/
+  568  ls
+  569  vi yolov5m.yaml 
+  570  sudo vi yolov5m.yaml 
+  571  cd ..
+  572  ps -al
+  573  jobs
+  574  sudo ps -al
+  575  sudo kill -9 42371
+  576  sudo ps -al
+  577  jobs
+  578  nohup python3 train.py --img 416 --batch 16 --epochs 40 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  579  timeout 15s tail -f nohup.out  
+  580  timeout 30s tail -f nohup.out  
+  581  timeout 60s tail -f nohup.out  
+  582  cd yolov5/
+  583  ls
+  584  timeout 60s tail -f nohup.out  
+  585  180!
+  586  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  587  sudo ps -al
+  588  sudo kill -9 82206
+  589  sudo ps -al
+  590  timeout 60s tail -f nohup.out  
+  591  cd yolov5/
+  592  timeout 60s tail -f nohup.out  
+  593  tail -f nohup.out  
+  594  ls
+  595  ls runs/
+  596  cp runs/train/yolov5m_car15/weights/best.pt best_car.pt
+  597  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  598  exit
+  599  cd yolov5/
+  600  ls
+  601  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  602  bg
+  603  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  604  python3 detect.py --source 08  --weight best_car.pt --data data1.yaml
+  605  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  606  python3 detect.py --source 081033_P_T18.jpg --weight best_car.pt --data data1.yaml
+  607  nohup python3 train.py --img 416 --batch 16 --epochs 10 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  608  timeout 60s tail -f nohup.out  
+  609  cd yolov5/
+  610  timeout 60s tail -f nohup.out  
+  611  ㅊㅇ ㅛㅐ
+  612  cd yolov5/
+  613  sudo ps -al
+  614  jobs
+  615  timeout 60s tail -f nohup.out  
+  616  cp runs/train/yolov5m_car16/weights/best.pt best_car.pt
+  617  nohup python3 train.py --img 416 --batch 16 --epochs 20 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  618  timeout 60s tail -f nohup.out  
+  619  jobsd
+  620  jobs
+  621  timeout 60s tail -f nohup.out  
+  622  cd yolov5/
+  623  timeout 60s tail -f nohup.out  
+  624  cd yolov5/
+  625  ls
+  626  timeout 60s tail -f nohup.out  
+  627  cd yolov5/
+  628  timeout 60s tail -f nohup.out  
+  629  history
+  630  timeout 60s tail -f nohup.out  
+  631  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  632  cat data1.yaml 
+  633  timeout 60s tail -f nohup.out  
+  634  cd yolov5/
+  635  timeout 60s tail -f nohup.out  
+  636  ls runs/train/
+  637  cp runs/train/yolov5m_car17/weights/best.pt best_car.pt
+  638  ls
+  639  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  640  nohup python3 train.py --img 416 --batch 16 --epochs 20 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  641  timeout 60s tail -f nohup.out  
+  642  python3 detect.py --source 130509_P_T18.jpg --weight best_car.pt --data data1.yaml
+  643  timeout 60s tail -f nohup.out  
+  644  ls
+  645  cd datasets/
+  646  ls
+  647  cd CarNumber/
+  648  ls
+  649  ls labels
+  650  cd 
+  651  cd yolov5/
+  652  cp ../datasets/CarNumber/convert.py .
+  653  cd
+  654  cd datasets/
+  655  ls
+  656  cd CarNumber/
+  657  ls
+  658  cd
+  659  cd yolov5/
+  660  timeout 60s tail -f nohup.out  
+  661  cd yolov5/
+  662  history
+  663  timeout 60s tail -f nohup.out  
+  664  ls
+  665  python3 detect.py --source 130509_P_T18.jpg --weight best_car.pt --data data1.yaml
+  666  timeout 60s tail -f nohup.out  
+  667  cd yolov5
+  668  timeout 60s tail -f nohup.out  
+  669  cd yolov5/
+  670  ls
+  671  timeout 60s tail -f nohup.out  
+  672  cp runs/train/yolov5m_car18/weights/best.pt best_car.pt
+  673  nohup python3 train.py --img 416 --batch 16 --epochs 50 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  674  timeout 60s tail -f nohup.out  
+  675  cd yolov5/
+  676  timeout 60s tail -f nohup.out  
+  677  history
+  678  python3 detect.py --source 130509_P_T18.jpg --weight best_car.pt --data data1.yaml
+  679  timeout 60s tail -f nohup.out  
+  680  cd yolov5/
+  681  ls
+  682  timeout 60s tail -f nohup.out  
+  683  cd yolov5/
+  684  timeout 60s tail -f nohup.out  
+  685  ls -al
+  686  history
+  687  ls -al
+  688  ls models/
+  689  ls dA
+  690  ls data
+  691  timeout 60s tail -f nohup.out  
+  692  c dy
+  693  cd yolov5/
+  694  timeout 60s tail -f nohup.out  
+  695  cd yolov5/
+  696  timeout 60s tail -f nohup.out  
+  697  cd yolov5/
+  698  timeout 60s tail -f nohup.out  
+  699  cd yolov5/
+  700  timeout 60s tail -f nohup.out  
+  701  cd yolov5/
+  702  timeout 60s tail -f nohup.out  
+  703  tail -f nohup.out  
+  704  ls runs/train/
+  705  ls runs/train/yolov5m_car19/weights/best.pt best_car.pt
+  706  cp runs/train/yolov5m_car19/weights/best.pt best_car.pt
+  707  jupyter notebook list
+  708  history
+  709  nohup python3 train.py --img 416 --batch 16 --epochs 50 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  710  timeout 60s tail -f nohup.out  
+  711  cd yolov5/
+  712  ls
+  713  timeout 60s tail -f nohup.out  
+  714  cd yolov5/
+  715  timeout 60s tail -f nohup.out  
+  716  cd  yolov5/
+  717  timeout 60s tail -f nohup.out  
+  718  cd yolov5/
+  719  timeout 60s tail -f nohup.out  
+  720  cd yolov5/
+  721  timeout 60s tail -f nohup.out  
+  722  tail -f nohup.out  
+  723  cp runs/train/yolov5m_car20/weights/best.pt best_car.pt
+  724  nohup python3 train.py --img 416 --batch 16 --epochs 50 --data ./data1.yaml --cfg ./models/yolov5m.yaml --weights best_car.pt --name yolov5m_car &
+  725  timeout 60s tail -f nohup.out  
+  726  vi test_result.txx
+  727  ls
+  728  timeout 60s tail -f nohup.out  
+  729  cd yolov5/
+  730  timeout 60s tail -f nohup.out  
+  731  history
+  732  180!
+  733  sudo jupyter-notebook --allow-root --ip=0.0.0.0 --port=5000
+  734  bg
+  735  ld
+  736  ls
+  737  cd yolov5/
+  738  ls
+  739  cat test_result.txx 
+  740  cd yolov5/
+  741  timeout 60s tail -f nohup.out  
+  742  history
+  743  python3 detect.py --source 130509_P_T18.jpg --weight best_car.pt --data data1.yaml
+  744  ls
+  745  vi run.py
+  746  vim run.py
+  747  rm run.py
+  748  vi run.py
+  749  cat vi.py
+  750  ls
+  751  ls -al
+  752  python run.py 130509_P_T18.jpg 
+  753  python3 run.py 130509_P_T18.jpg 
+  754  vim run.py
+  755  vi run.py
+  756  rm run.py
+  757  vi run.py
+  758  python3 run.py 130509_P_T18.jpg 
+  759  rm run.py
+  760  vi run.py
+  761  python3 run.py 130509_P_T18.jpg 
+  762  rm run.py
+  763  vi run.py
+  764  python3 run.py 130509_P_T18.jpg 
+  765  python3 detect.py --source 130509_P_T18.jpg --weight best_car.pt --data data1.yaml
+  766  python3 detect.py --source 130509_P_T18.jpg --weight best_car.pt --data data1.yaml --save-txt result01.txt
+  767  python3 detect.py --source 130509_P_T18.jpg --weight best_car.pt --data data1.yaml --save-txt 
+  768  cd yolov5/
+  769  ls
+  770  timeout 60s tail -f nohup.out  
+  771  cat run.py 
+  772  pip3 install torch
+  773  python3 run.py 130509_P_T18.jpg 
+  774  cat run.py 
+  775  vim run.py
+  776  python3 run.py 130509_P_T18.jpg 
+  777  vim run.py
+  778  python3 run.py 130509_P_T18.jpg 
+  779  pwd
+  780  vim run.py
+  781  python3 run.py 130509_P_T18.jpg 
+  782  cat run.py
+  783  vim run.py
+  784  python3 run.py 130509_P_T18.jpg 
+  785  pip install image
+  786  python3 run.py 130509_P_T18.jpg 
+  787  vim run.py
+  788  python3 run.py 130509_P_T18.jpg 
+  789  vim run.py
+  790  python3 run.py 130509_P_T18.jpg 
+  791  pip install Image
+  792  vim run.py
+  793  python3 run.py 130509_P_T18.jpg 
+  794  pip install pillow
+  795  vim run.py
+  796  python3 run.py 130509_P_T18.jpg 
+  797  vi run.py
+  798  cd yolov5/
+  799  timeout 60s tail -f nohup.out  
+  800  cd yolov5/
+  801  timeout 60s tail -f nohup.out  
+  802  cat run.py 
+  803  history
+  804  python3 run.py 130509_P_T18.jpg 
+  805  vim run.py
+  806  python3 run.py 130509_P_T18.jpg 
+  807  vim run.py
+  808  python3 run.py 130509_P_T18.jpg 
+  809  vim run.py
+  810  python3 run.py 130509_P_T18.jpg 
+  811  pip3 install Image
+  812  pip3 install --upgrade pillow
+  813  python3 run.py 130509_P_T18.jpg 
+  814  vim run.py
+  815  python3 run.py 130509_P_T18.jpg 
+  816  vim run.py
+  817  python3 run.py 130509_P_T18.jpg 
+  818  vim run.py
+  819  python3 run.py 130509_P_T18.jpg 
+  820  vim run.py
+  821  python3 run.py 130509_P_T18.jpg 
+  822  vim run.py
+  823  python3 run.py 130509_P_T18.jpg 
+  824  vim run.py
+  825  python3 run.py 130509_P_T18.jpg 
+  826  vim run.py
+  827  python3 run.py 130509_P_T18.jpg 
+  828  history
+  829  ls
+  830  python3 detect.py --source 000024187_P_T05.jpg --weight best_car.pt --data data1.yaml
+  831  cat run.py 
+  832  python3 run.py 130509_P_T18.jpg 
+  833  vim run.py
+  834  python3 run.py 130509_P_T18.jpg 
+  835  timeout 60s tail -f nohup.out
+  836  cd yolov5/
+  837  timeout 60s tail -f nohup.out
+  838  cd yolov5/
+  839  timeout 60s tail -f nohup.out
+  840  cp runs/train/yolov5m_car21/weights/best.pt best_car.pt
+  841  history
+ubuntu@ip-172-31-15-250:~$ 
