@@ -1,8 +1,11 @@
 import sys
+import os
 import torch
 import numpy as np
 import yaml
 import math
+
+home_path = ""
 
 def yolov5_detect():
     img = './130509_P_T18.jpg'        
@@ -13,7 +16,7 @@ def yolov5_detect():
         CodeClass = yaml.load(f,Loader=yaml.FullLoader)
 #        print(CodeClass)
     
-    model = torch.hub.load('./', 'custom' , 'best_car.pt' , source='local' )
+    model = torch.hub.load('../yolov5/', 'custom' , '../yolov5/best_car.pt' , source='local' )
 # 추론 
     results = model(img)
     icnt = len(results.xyxy[0])
@@ -70,6 +73,9 @@ def yolov5_detect():
     print('Final CarNumber = ' + retStr) 
 
 if __name__ == '__main__':    
+    curpath = os.getcwd()
+    homepath = curpath.rsplit('/',1)
+    print(homepath[1])
     yolov5_detect()
     
     
