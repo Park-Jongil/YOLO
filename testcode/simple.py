@@ -74,8 +74,10 @@ def yolov5_detect():
 
 if __name__ == '__main__':    
     curpath = os.getcwd()
+    print(__file__)
     homepath = curpath.rsplit('/',1)
-    print(homepath[1])
+    print(f'path = { curpath } ')
+    home_path = homepath[0]
     yolov5_detect()
     
     
